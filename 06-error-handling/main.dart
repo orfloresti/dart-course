@@ -3,6 +3,7 @@ void main(List<String> args) {
     var age = null;
     int dogYears = 7;
 
+    if( dogYears != 8) throw new Exception('Dog years must be 7');
     if(age == null) throw new UnimplementedError();
 
     print(age * dogYears);
