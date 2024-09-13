@@ -8,3 +8,6 @@
 
 `dart create -t package <name>`
 
+## Install dependencies
+
+`dart pub get`
