@@ -30,7 +30,7 @@ int testCompress(var codec) {
 
   print('Testing ${codec.toString()}');
   print('Original ${original.length}');
-  print('Copmpressed ${compressed.length}');
+  print('Compressed ${compressed.length}');
   print('Decompressed ${decompressed.length}');
 
   print('');
