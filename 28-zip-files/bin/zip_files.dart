@@ -10,11 +10,11 @@ main(List<String> arguments) {
     if(fse.statSync().type == FileSystemEntityType.file) files.add(fse.path);
   });
 
-  String zipfile = '/Users/bryancairns/Downloads/compressed.zip';
+  String zipfile = ''; // set path 
 
   zip(files, zipfile);
 
-  unzip(zipfile, '/Users/bryancairns/Downloads/decompressed');
+  unzip(zipfile, ''); ''; // set path 
 
 }
 
